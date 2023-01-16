@@ -1,0 +1,163 @@
+body {
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+
+.logo img {
+    width: 268px;
+    height: 33px;
+}
+.navb{
+    display: flex ;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    top: 0%;
+    position: fixed ;
+    box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+}
+.menu{
+    display: block;
+    text-decoration: none;
+    padding: 0 0.6em;
+    color: #00b39b;
+}
+.menu a {
+text-decoration: none ;
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+
+}
+a{
+    outline: 0;
+    transition: all .2s ease 0s;
+    background-color: transparent;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+#departement{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
+li{
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
+.main-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+} 
+.main-title h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -.3px;
+}
+
+.main-para {
+    display: flex;
+    justify-content: space-around ;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px;
+}
+
+.para p {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*@media screen and  (max-width :576px ) {*/
+    
+.main-box div {
+    width: 311.625px ;
+    height: 345px ;
+    text-shadow: none;
+    border-radius: 5%;
+    flex-wrap: wrap; 
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+    
+}
+h2 p{
+    display: block;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    
+}
+
+.box1{ 
+    background: #00b39b;
+    text-size-adjust: center ;
+     
+}
+.box2{
+    background: #3d83df;
+    text-size-adjust: center ;
+
+}
+.box3{
+    background: #1b2734;
+    text-size-adjust: center ;
+
+}
+
+.style-select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#select1{
+    background: #656b6a;
+    color: #fff;
+    text-shadow: none;
+}
+#select2{
+    background: #656b6a;
+    color: #fff;
+    text-shadow: none;
+
+}
+#select3{
+    background: #656b6a;
+    color: #fff;
+    text-shadow: none;
+}
